@@ -6,7 +6,5 @@ permissions:
   pull-requests: write
 jobs:
   welcome:
+    name: Post welcome comment
     runs-on: ubuntu-latest
-    steps:
-      - name: Placeholder step
-        run: echo "Workflow initialized"
