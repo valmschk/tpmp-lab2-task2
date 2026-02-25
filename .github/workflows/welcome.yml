@@ -1,0 +1,12 @@
+name: Post welcome comment
+on:
+  pull_request:
+    types: [opened]
+permissions:
+  pull-requests: write
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder step
+        run: echo "Workflow initialized"
